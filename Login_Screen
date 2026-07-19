@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ResponderChart Login</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page-shell">
+
+    <div class="brand-panel">
+        <div class="brand-content">
+            <div class="logo">RC</div>
+
+            <p class="eyebrow">EMS Documentation Platform</p>
+            <h1>ResponderChart</h1>
+
+            <p class="brand-copy">
+                Secure electronic patient care reporting for Fire and EMS agencies.
+            </p>
+
+            <div class="feature">
+                ✓ Fast Documentation
+            </div>
+
+            <div class="feature">
+                ✓ Secure Login
+            </div>
+
+            <div class="feature">
+                ✓ QA Ready
+            </div>
+        </div>
+    </div>
+
+    <div class="login-panel">
+
+        <div class="login-card">
+
+            <p class="eyebrow dark">Welcome Back</p>
+
+            <h2>Sign in</h2>
+
+            <p class="subtitle">
+                Enter your agency credentials.
+            </p>
+
+            <form>
+
+                <label>Agency</label>
+                <select>
+                    <option>Select Agency</option>
+                    <option>Franklin Fire & Rescue</option>
+                    <option>Newsoms VFD</option>
+                </select>
+
+                <label>Username</label>
+                <input type="text" placeholder="Username">
+
+                <label>Password</label>
+                <input type="password" placeholder="Password">
+
+                <div class="row">
+                    <label class="remember">
+                        <input type="checkbox">
+                        Remember Me
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button class="login-btn">
+                    Sign In →
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
